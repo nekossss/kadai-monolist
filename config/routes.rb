@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   
   resources :items, only: [:show, :new]
   resources :ownerships, only: [:create, :destroy]
+  resources :boughtitems, only: [:create, :destroy]
 end
